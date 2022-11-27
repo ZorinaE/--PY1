@@ -14,4 +14,4 @@ while True: # кол-во месяцев неизвестно, поэтому н
     money_capital -= delta
     spend *= 1 + increase
 
-print(month)  # 8
+print(month)
