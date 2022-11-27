@@ -10,6 +10,3 @@ for _ in range(months):
     spend *= 1 + increase # увеличиваем траты на рост цен
 
 print(round(money_capital))
-
-
-
