@@ -7,7 +7,7 @@ for i, current_value in enumerate(list_numbers):
     if current_value >= value: # сравниваем текущее значение из списка с максимальным
         value = current_value # записываем в переменную в случае выполнения условия
         index = i # записываем индекс
-    # TODO Оформить решение
-list_numbers[index] = list_numbers[19] # меняем местами элементы
-list_numbers[19] = value
-print(list_numbers)  # Ответ [2, 90, -2, 8, -36, -44, -1, -85, -14, 25, -22, -90, -100, -8, 38, -92, -45, 67, 53, 90]
+
+list_numbers[index], list_numbers[19] = list_numbers[19], value# меняем местами элементы
+
+print(list_numbers)
