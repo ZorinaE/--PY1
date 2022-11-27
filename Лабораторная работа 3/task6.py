@@ -11,3 +11,4 @@ for i, current_value in enumerate(list_numbers):
 list_numbers[index], list_numbers[19] = list_numbers[19], value# меняем местами элементы
 
 print(list_numbers)
+
